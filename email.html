@@ -5,20 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transactional Email Template</title>
+    <style>
+        @media screen and (max-width: 600px) {
+          .content {
+              width: 100% !important;
+              display: block !important;
+              padding: 10px !important;
+          }
+          .header, .body, .footer {
+              padding: 20px !important;
+          }
+        }
+      </style>
 </head>
 
 <body style="font-family: 'Poppins', Arial, sans-serif">
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td align="center" style="padding: 20px;">
-                <table class="content" width="600" border="0" cellspacing="0" cellpadding="0"
-                    style="border-collapse: collapse; border: 1px solid #cccccc;">
+                <table class="content" width="600" border="0" cellspacing="0" cellpadding="0">
                     <!-- Email header -->
                     <tr>
-                        <td align="center" style="padding: 20px;">
+                        <td align="center" style="padding: 20px">
                     <tr>
-                        <td class="header"
-                            style="background-color: #345C72; padding: 40px; text-align: center; color: white; font-size: 24px;">
+                        <td class="header__logo"
+                        style="background-color: #345C72; padding: 40px; text-align: center; color: white; font-size: 20px;">
+                            <img src="https://app-apmf-website-prod.azurewebsites.net/api/media/file/logo-apmf.png" alt="logo-apmf"  width="50">
                             Responsive Email Template
                         </td>
                     </tr>
